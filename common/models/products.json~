@@ -1,0 +1,101 @@
+{
+  "name": "products",
+  "plural": "products",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "idproducts": {
+      "type": "number",
+      "id": true,
+      "required": true
+    },
+    "popularity": {
+      "type": "number",
+      "required": true
+    },
+    "gid": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "artist": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "image_link": {
+      "type": "string",
+      "required": true
+    },
+    "brand": {
+      "type": "string",
+      "required": true
+    },
+    "color": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string",
+      "required": true
+    },
+    "style": {
+      "type": "string"
+    },
+    "made_in": {
+      "type": "string"
+    },
+    "condition": {
+      "type": "string"
+    },
+    "expiration_date": {
+      "type": "date"
+    },
+    "age_range": {
+      "type": "string"
+    },
+    "size": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "string"
+    },
+    "iscustomizable": {
+      "type": "string"
+    },
+    "pubdate": {
+      "type": "date"
+    },
+    "productdescription": {
+      "type": "string"
+    },
+    "producttype": {
+      "type": "string"
+    },
+    "localimage": {
+      "type": "string"
+    },
+    "dep_num": {
+      "type": "string"
+    },
+    "reg_date": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

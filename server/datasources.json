@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "zazzle": {
+    "host": "85.214.233.63",
+    "port": 3306,
+    "url": "mysql://web_reader:rRPQDQqsfRWFcufN@85.214.233.63/zazzle",
+    "database": "zazzle",
+    "password": "rRPQDQqsfRWFcufN",
+    "name": "zazzle",
+    "user": "web_reader",
+    "connector": "mysql"
+  }
+}
